@@ -1,0 +1,104 @@
+body{
+    background: #5669FF;
+    margin: 0;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: fixed;
+    top: 0;
+    width: -webkit-fill-available;
+    background-color:#5669FF ;
+}
+.nav{
+    display: flex;
+    padding: 10px;
+    gap: 30px;
+}
+.bigcontainer{
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    margin-top: 140px;
+    margin-bottom: 140px;
+}
+#started{
+    padding: 15px;
+    width: fit-content;
+    border-radius: 15px;
+    border: 1px solid #000;
+    background: rgba(255, 255, 255, 0.90);
+    color: #18213A;
+}
+#buttonstarted{
+    margin-left: 90px;
+}
+#about{
+    margin-top: 80px;
+    background: linear-gradient(180deg, #5669FF 0%, #FFF 61.32%, #FFF 62.15%, #5669FF 100%);
+    display: flex;
+    align-items: center;
+}
+#about h1{
+    color: #18213A;
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+#more{
+    width: 500px;
+    height: 308px;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #18213A;
+    text-align: justify;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+#profile{
+    justify-content: center;
+    text-align: center;
+}
+#profile h1{
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+#profile p{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+.gallery{
+    margin-bottom: 100px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 255px;
+    padding-top: 100px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.78) -8.3%, rgba(107, 124, 255, 0.00) 25.2%);
+}
+
+.container-foot{
+    display: flex;
+    justify-content: space-between;
+}
+.container-foot p{
+    width: 600px;
+}
+#copyright{
+    text-align: center;
+    margin-top: 50px;
+}
